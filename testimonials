@@ -46,5 +46,6 @@ function testimonials_shortcode( $atts ) {
     <?php
         $myvariable = ob_get_clean();
         return $myvariable;
+	
     }
 }
